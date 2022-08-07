@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %> | Glasses</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+  <header class="bg-main text-white">
+    <div class="container items-center p-0 md:p-4">
+      <div class="p-0 sm:flex sm:justify-between items-center">
+        <div class="py-4 border-b sm:border-none">
+          <h1 class=""><a href="index.html"><img class="w-20 m-auto sm:ml-0" src="./assets/images/logo-white.png" alt=""></a></h1>
+        </div>
+        <ul class="menu list-none flex flex-wrap text-center sm:text-left sm:gap-16">
+          <li
+            class="w-1/2 sm:w-auto border-r border-b border-white sm:border-none hover:text-slate-200 ease-in-out duration-300">
+            <a class="block py-4" href="product.html">系列鏡框</a></li>
+          <li
+            class="w-1/2 sm:w-auto border-b border-white sm:border-none hover:text-slate-200 ease-in-out duration-300">
+            <a class="block py-4" href="store.html">門市據點</a></li>
+          <li
+            class="w-1/2 sm:w-auto border-r border-b border-white sm:border-none hover:text-slate-200 ease-in-out duration-300">
+            <a class="block py-4" href="">部落格</a></li>
+          <li
+            class="w-1/2 sm:w-auto border-b border-white sm:border-none hover:text-slate-200 ease-in-out duration-300">
+            <a class="block py-4" href="">常見問題</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <%- contents %>
+
+  <footer class="bg-main text-white py-6 md:pt-12 md:pb-8">
+    <div class="container flex flex-wrap md:block justify-between">
+      <div class="flex justify-between items-start md:items-center">
+        <ul class="hidden md:flex gap-12">
+          <li class="hover:text-slate-200 ease-in-out duration-300"><a href="">首頁</a></li>
+          <li class="hover:text-slate-200 ease-in-out duration-300"><a href="">系列鏡框</a></li>
+          <li class="hover:text-slate-200 ease-in-out duration-300"><a href="">門市據點</a></li>
+          <li class="hover:text-slate-200 ease-in-out duration-300"><a href="">部落格</a></li>
+          <li class="hover:text-slate-200 ease-in-out duration-300"><a href="">常見問題</a></li>
+        </ul>
+        <ul class="flex justify-end gap-2 md:gap-8">
+          <li class="w-6 md:w-12 hover:opacity-90 ease-in-out duration-300"><a href=""><img
+                src="./assets/images/ic-social-fb.png" alt=""></a></li>
+          <li class="w-6 md:w-12 hover:opacity-90 ease-in-out duration-300"><a href=""><img
+                src="./assets/images/ic_social_ig.png" alt=""></a></li>
+          <li class="w-6 md:w-12 hover:opacity-90 ease-in-out duration-300"><a href=""><img
+                src="./assets/images/ic_social_line.png" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="pb-6 md:py-9 border-b order-first">
+        <div class="text-base md:text-4xl mb-2"><img src="./assets/images/logo-white.png" alt=""
+            class="h-4 md:h-9 inline-block mr-2 md:mr-5">0800-000-000</div>
+        <div class="text-base md:text-4xl "><img src="./assets/images/logo-white.png" alt=""
+            class="h-4 md:h-9 inline-block mr-2 md:mr-5">glasses@business.com</div>
+      </div>
+      <div class="flex flex-col md:flex-row mt-4 md:mt-8 justify-between md:items-center">
+        <p>Copyright © 2020 Glasses.All rights reserved.</p>
+        <ul class="md:flex gap-12">
+          <li class="text-sm hover:text-slate-200 ease-in-out duration-300"><a href="">隱私權政策</a></li>
+          <li class="text-sm hover:text-slate-200 ease-in-out duration-300"><a href="">服務條款</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
