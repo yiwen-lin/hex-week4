@@ -113,13 +113,11 @@ section.joint {
 
 section.joint a {
     color: #aa0601;
-    -webkit-transition: .3s;
     transition: .3s
 }
 
 section.joint a:hover {
     color: #650300;
-    -webkit-transition: .3s;
     transition: .3s
 }
 
