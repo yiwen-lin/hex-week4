@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./app/**/*.{html,ejs}"],
   theme: {
+    fontFamily: {
+      'sans': ['Roboto', '"Noto Sans TC"','sans-serif'],
+    },
     container: {
       center: true,
       padding:{
